@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "gulp e2e && mocha test/specs/api/**/*.js",
+    "api-tests": "mocha test/specs/api/**/*.js",
+    "e2e-tests": "gulp e2e"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "request": "^2.81.0",
+    "should": "^11.2.1",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-selenium-standalone-service": "0.0.8",
+    "wdio-spec-reporter": "^0.1.0"
+  }
+}
